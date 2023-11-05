@@ -1,0 +1,39 @@
+.emoji-section {
+  list-style-type: none;
+  margin-top: 3px;
+  width: 33%;
+  padding: 5px;
+  margin-bottom: 3px;
+}
+
+@media screen and (min-width: 992px) {
+  .emoji-section {
+    width: 20%;
+  }
+}
+
+.emoji-button {
+  background-color: #ffffff33;
+  border: 3px solid #ffffff30;
+  border-radius: 25px;
+  height: 100px;
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 765px) {
+  .emoji-button {
+    height: 200px;
+  }
+}
+
+.emoji-icon {
+  width: 50px;
+}
+
+@media screen and (min-width: 765px) {
+  .emoji-icon {
+    width: 100px;
+  }
+}
